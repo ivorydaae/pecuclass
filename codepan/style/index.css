@@ -1,0 +1,33 @@
+.block{
+  padding: 50px ;
+  width: 900px  ;
+  height:  100px ;
+  background: #001 ;
+  border-radius:  0px ;
+  opacity:  0.64 ;
+/*   box-shadow: 10px 10px 5px #888888 ; */
+  margin-bottom:  20px ;
+  
+}
+
+ .secondblock{
+  display: inline-block ;
+  width: 500px  ;
+  height:  500px ;
+  background: #977;
+  border-radius:  0px ;
+  opacity:  0.64 ;
+/*   box-shadow: 10px 10px 5px #888888 ; */
+  margin-bottom:  20px ;
+ 
+}
+  
+.smallblock{
+  height: 250px   ;
+  background: #47b3cf ;
+  border-bottom: 1px solid #fff;
+  &:nth-child(2)
+    border-bottom: 0px
+
+}
+
